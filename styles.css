@@ -1,0 +1,75 @@
+.left-page {
+    height: 793.700787411px;
+    width: 561.63779528226px;
+    border: 5px solid blue;
+    background-image: url("https://cdn.pixabay.com/photo/2020/03/30/18/03/flower-4985011_960_720.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8px
+}
+
+.right-page {
+    height: 793.700787411px;
+    width: 561.63779528226px;
+    border: 5px ridge blue;
+    background-image: url("https://cdn.pixabay.com/photo/2020/03/30/18/03/flower-4985011_960_720.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8px
+}
+
+.horiz{
+    display: flex;
+}
+
+.big-font{
+    font-size: 45px;
+    font-family: 'Besley', serif;
+    background-image: linear-gradient(to right, rgba(93, 241, 142, 0.7), rgba(16, 247, 247, 0.7), rgba(102, 231, 153, 0.7));
+    color: red;
+    text-shadow: 2px 2px white;
+}
+
+.center-this {
+    display: flex;
+    justify-content: center;
+}
+
+.imp-img {
+    border: 5px ridge cyan;
+    box-shadow: 5px 5px rgba(230, 43, 43, 0.5);
+    height: 200px;
+    width: 550px;
+    border-radius: 10px;
+}
+
+.glassy{
+    background-color: rgba(248, 242, 248, 0.5);
+}
+
+.p1{
+    font-size: 15px;
+    /* font-weight: 800; */
+    background-image: linear-gradient(to right, rgba(225, 221, 221, 0), rgba(17, 116, 236, 0.8), rgb(241, 238, 238, 0));
+    color: white;
+    padding: 2px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.big-font1{
+    font-size: 40px;
+    font-family: 'Besley', serif;
+    background-image: linear-gradient(to right, rgba(93, 241, 142, 0.7), rgba(16, 247, 247, 0.7), rgba(102, 231, 153, 0.7));
+    color: red;
+    text-shadow: 2px 2px white;
+
+}
+
+.p2{
+    font-size: 20px;
+    background-image: linear-gradient(to right, rgba(35, 32, 32, 0.8), rgba(17, 116, 236, 0.8), rgba(35, 32, 32, 0.8));
+    color: white;
+    padding: 20px;
+    font-family: 'Kaushan Script', cursive;
+    border: 2px solid white;
+}
