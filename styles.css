@@ -1,0 +1,102 @@
+.icon {
+  width: 2vw;
+}
+
+.contactsSection {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1vw;
+  justify-content: space-around;
+  max-height: 20%;
+  align-items: center;
+  font-size: 1vw;
+  font-weight: 600;
+  background-color: #b1ec0c;
+}
+.contactsSection .section1 {
+  display: flex;
+}
+.contactsSection .section1 img {
+  margin: 1vw;
+}
+.contactsSection .section1 .email a {
+  color: black;
+}
+.contactsSection .buttons button {
+  padding: 1vw;
+  margin: 1vw;
+  background-color: aliceblue;
+  border-radius: 10vw 10vw 10vw 10vw;
+  width: 10vw;
+}
+.contactsSection .socialMediaIcons {
+  cursor: pointer;
+}
+.contactsSection .socialMediaIcons img {
+  margin: 1vw;
+}
+.contactsSection .socialMediaIcons .iso {
+  width: 5vw;
+}
+
+.menu {
+  padding: 1vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #b1ec0c;
+  font-size: 1.3vw;
+  color: #413737;
+}
+.menu .companyLogo img {
+  width: 20vw;
+}
+.menu .menuItem {
+  padding: 1vw;
+  cursor: pointer;
+  background-color: #b1ec0c;
+  font-size: 1vw;
+}
+.menu .dropdownItem {
+  background-color: #b1ec0c;
+  padding: 1vw;
+  margin: 1vw;
+}
+.menu a {
+  color: #413737;
+}
+
+hr {
+  margin: 0;
+}
+
+.loginButton button {
+  padding: 1vw;
+  margin: 1vw;
+  background-color: aliceblue;
+  border-radius: 2vw;
+  width: 10vw;
+}
+
+.bodyPart {
+  display: flex;
+  justify-content: center;
+}
+.bodyPart img {
+  width: 90%;
+  height: 70vh;
+  border-radius: 1vw 1vw 5vw 5vw;
+}
+.bodyPart .whatsappLogo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 5%;
+  height: 10%;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
