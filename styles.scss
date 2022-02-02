@@ -1,0 +1,81 @@
+.icon {
+  width: 2vw;
+}
+
+.contactsSection {
+  display: flex;
+  flex-wrap: wrap;
+  //   margin: 1vw;
+  padding: 1vw;
+  justify-content: space-around;
+  max-height: 20%;
+  align-items: center;
+  //   border: 2px solid;
+  font-size: 1vw;
+  font-weight: 600;
+  background-color: rgb(177, 236, 12);
+  .section1 {
+    display: flex;
+    img {
+      margin: 1vw;
+    }
+  }
+  .buttons {
+    button {
+      padding: 1vw;
+      margin: 1vw;
+      background-color: aliceblue;
+      border-radius: 10vw 10vw 10vw 10vw;
+      width: 10vw;
+    }
+  }
+  .socialMediaIcons {
+    img {
+      margin: 1vw;
+    }
+    .iso {
+      width: 5vw;
+    }
+  }
+}
+
+.menu {
+  padding: 1vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(177, 236, 12);
+  font-size: 1.3vw;
+  color: rgb(65, 55, 55);
+  .companyLogo {
+    img {
+      width: 20vw;
+    }
+  }
+  .menuItem {
+    //   border: 2px solid;
+    padding: 1vw;
+    cursor: pointer;
+    background-color: rgb(177, 236, 12);
+    font-size: 1vw;
+  }
+  .dropdownItem {
+    background-color: rgb(177, 236, 12);
+    padding: 1vw;
+    margin: 1vw;
+  }
+}
+hr {
+  margin: 0;
+}
+
+.menuItem:hover {
+//   text-decoration: underline white;
+}
+.loginButton button {
+  padding: 1vw;
+  margin: 1vw;
+  background-color: aliceblue;
+  border-radius: 2vw;
+  width: 10vw;
+}
