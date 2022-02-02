@@ -1,0 +1,11 @@
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2017/08/15/08/23/stars-2643089_960_720.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  color: white;
+  border: 2px solid white;
+  height: 100vh;
+  font-size: 4vw;
+  justify-content: center;
+}

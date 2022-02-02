@@ -19,6 +19,9 @@
     img {
       margin: 1vw;
     }
+    .email a{
+        color: black
+    }
   }
   .buttons {
     button {
@@ -30,6 +33,7 @@
     }
   }
   .socialMediaIcons {
+      cursor: pointer;
     img {
       margin: 1vw;
     }
@@ -64,13 +68,16 @@
     padding: 1vw;
     margin: 1vw;
   }
+  a{
+  color: rgb(65, 55, 55);
+  }
 }
 hr {
   margin: 0;
 }
 
 .menuItem:hover {
-//   text-decoration: underline white;
+  //   text-decoration: underline white;
 }
 .loginButton button {
   padding: 1vw;
@@ -78,4 +85,23 @@ hr {
   background-color: aliceblue;
   border-radius: 2vw;
   width: 10vw;
+}
+.bodyPart {
+  display: flex;
+  justify-content: center;
+  img {
+    width: 90%;
+    height: 70vh;
+    border-radius: 1vw 1vw 5vw 5vw;
+  }
+  .whatsappLogo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 5%;
+    height: 10%;
+  }
+}
+a:link {
+  text-decoration: none;
 }
