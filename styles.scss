@@ -2,6 +2,7 @@
   width: 2vw;
 }
 
+
 .contactsSection {
   display: flex;
   flex-wrap: wrap;
@@ -19,8 +20,8 @@
     img {
       margin: 1vw;
     }
-    .email a{
-        color: black
+    .email a {
+      color: black;
     }
   }
   .buttons {
@@ -33,7 +34,7 @@
     }
   }
   .socialMediaIcons {
-      cursor: pointer;
+    cursor: pointer;
     img {
       margin: 1vw;
     }
@@ -68,8 +69,8 @@
     padding: 1vw;
     margin: 1vw;
   }
-  a{
-  color: rgb(65, 55, 55);
+  a {
+    color: rgb(65, 55, 55);
   }
 }
 hr {
