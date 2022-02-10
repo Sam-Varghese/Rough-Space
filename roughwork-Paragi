@@ -1,0 +1,8 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    cout<<"Hello Paragi, welcome to VS Code"<<endl;
+    return 0;
+}
