@@ -1,9 +1,1 @@
-# Rough-Space
-
-```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
-```
+<h2><span style="color:hsl(0, 75%, 60%);">Topics</span></h2><ol><li>Abstract</li><li>Problem statement</li><li>Our thoughts/ solution/ idea</li></ol><ul><li>Adjust power according to wind direction</li><li>Use for transportation of objects inside house</li><li>Will reach great heights.</li></ul><ol><li><strong>USP</strong> (Unique Selling Point)</li><li>Definition</li><li>History of drones (Journey)</li><li>Types of drones</li><li>Working principles (Physics)</li><li>Construction</li><li>Programming</li><li>Research (efficiency, factors, connecting with the computer, analysis of the hands of drone, etc)</li><li>Applications</li><li>Disadvantages</li></ol><ul><li>Noise</li><li>Cost</li><li>Too windy</li><li>Robbery/ destruction of drones</li><li>Mapping of house</li><li>Too windy house, collision with curtains</li><li>Danger to delicate objects by wind of drone</li><li>What if space of house is too less.</li></ul><ol><li>Advantages</li><li>Indian companies involved in drone making (Market status)</li><li>Cost analysis</li><li>Conclusion</li><li>Bibliography</li></ol><h2><span style="color:hsl(0, 75%, 60%);">Bifurcation</span></h2><h3>Asmita Bhadoria</h3><ul><li>Abstract</li><li>Problem statement</li><li>Thoughts/ solutions/ idea</li><li>Construction</li><li>Bibliography</li></ul><h3>Sudhanshu Rastogi</h3><ul><li>History</li><li>Working principle</li><li>Construction</li><li>Bibliography</li></ul><h3>Paragi Chauhan</h3><ul><li>Cost</li><li>Types of drones</li><li>USP</li><li>Research</li><li>Bibliography</li></ul><h3>Chaitanaya Kusumakar</h3><ul><li>Disadvantages</li><li>Overcoming disadvantages</li><li>Construction</li><li>Research</li><li>Bibliography</li></ul><h3>Sam Varghese</h3><ul><li>Programming analysis (AI/ ML)</li><li>Construction</li><li>Research</li><li>Advantages</li><li>Bibliography</li></ul><h3>Harshit Gupta</h3><ul><li>Application</li><li>Indian companies involved in drone making (Market status): Graph, stats</li><li>Conclusion</li><li>Bibliography</li></ul>
