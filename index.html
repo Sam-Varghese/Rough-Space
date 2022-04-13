@@ -1,133 +1,153 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tutorial</title>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-    />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="contactsSection">
-      <div class="section1">
-        <div class="email">
-          <img
-            src="images/mail.png"
-            alt=""
-            class="icon"
-          />
-          <a href="mailto: admin@stockproonline.com">
-            admin@stockproonline.com</a
-          >
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=8; IE=EDGE">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <style type="text/css">
+            body {
+                height: 100%;
+                font-family: Roboto, Helvetica, Arial, sans-serif;
+                color: #6a6a6a;
+                margin: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            input[type=date], input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], select, textarea {
+                color: #262626;
+                vertical-align: baseline;
+                margin: .2em;
+                border-style: solid;
+                border-width: 1px;
+                border-color: #a9a9a9;
+                background-color: #fff;
+                box-sizing: border-box;
+                padding: 2px .5em;
+                appearance: none;
+                border-radius: 0;
+            }
+            input:focus {
+                border-color: #646464;
+                box-shadow: 0 0 1px 0 #a2a2a2;
+                outline: 0;
+            }
+            button {
+                padding: .5em 1em;
+                border: 1px solid;
+                border-radius: 3px;
+                min-width: 6em;
+                font-weight: 400;
+                font-size: .8em;
+                cursor: pointer;
+            }
+            button.primary {
+                color: #fff;
+                background-color: rgb(47, 113, 178);
+                border-color: rgb(34, 103, 173);
+            }
+            .message-container {
+                height: 500px;
+                width: 600px;
+                padding: 0;
+                margin: 10px;
+            }
+            .logo {
+                background: url(/XX/YY/ZZ/CI/MGPGHGPGPFGHDDPFGGHGFHBGCHEGPFBGAHAH) no-repeat left center;
+                height: 267px;
+                object-fit: contain;
+            }
+            table {
+                background-color: #fff;
+                border-spacing: 0;
+                margin: 1em;
+            }
+            table > tbody > tr > td:first-of-type:not([colspan]) {
+                white-space: nowrap;
+                color: rgba(0,0,0,.5);
+            }
+            table > tbody > tr > td:first-of-type {
+                vertical-align: top;
+            }
+            table > tbody > tr > td {
+                padding: .3em .3em;
+            }
+            .field {
+                display: table-row;
+            }
+            .field > :first-child {
+                display: table-cell;
+                width: 20%;
+            }
+            .field.single > :first-child {
+                display: inline;
+            }
+            .field > :not(:first-child) {
+                width: auto;
+                max-width: 100%;
+                display: inline-flex;
+                align-items: baseline;
+                vertical-align: top;
+                box-sizing: border-box;
+                margin: .3em;
+            }
+            .field > :not(:first-child) > input {
+                width: 230px;
+            }
+            .form-footer {
+                display: inline-flex;
+                justify-content: flex-start;
+            }
+            .form-footer > * {
+                margin: 1em;
+            }
+            .text-scrollable {
+                overflow: auto;
+                height: 150px;
+                border: 1px solid rgb(200, 200, 200);
+                padding: 5px;
+                font-size: 1em;
+            }
+            .text-centered {
+                text-align: center;
+            }
+            .text-container {
+                margin: 1em 1.5em;
+            }
+            .flex-container {
+                display: flex;
+            }
+            .flex-container.column {
+                flex-direction: column;
+            }
+        </style>
+        <title>Firewall Authentication</title>
+    </head>
+    <body><div class="message-container">
+    <div class="logo"></div>
+    <h1>Authentication Required</h1>
+    <form action="http://10.160.0.6:1000/fgtauth?00455ca677d79d69/" method="post">
+        <input type="hidden" name="4Tredir" value="http://www.msftconnecttest.com/redirect">
+        <input type="hidden" name="magic" value="00455ca677d79d69">
+        <input type="hidden" name="" value="">
+        <p>Please enter your username and password to continue.</p>
+        <div class="field">
+            <label for="ft_un">Username</label>
+            <div>
+                <input name="username" id="ft_un" type="text" autocorrect="off" autocapitalize="off" value = "70472100208">
+            </div>
         </div>
-        <div class="contactNumber">
-          <img
-            src="images/call.png"
-            alt=""
-            class="icon"
-          />
-
-          +91 7828515205
+        <div class="field">
+            <label for="ft_pd">Password</label>
+            <div>
+                <input name="password" id="ft_pd" autocomplete="on" value="M!ba(123">
+            </div>
         </div>
-      </div>
-
-      <div class="buttons">
-        <a href="lost.html"><button>Free Tutorials</button></a>
-        <a href="lost.html"><button>Demo Class</button></a>
-      </div>
-      <div class="socialMediaIcons">
-        <img
-          src="https://cdn-icons.flaticon.com/png/512/3670/premium/3670124.png?token=exp=1643801762~hmac=3fc18bbdb7d4357db56ed055c6c9afb6"
-          alt=""
-          class="icon"
-        />
-        <img
-          src="https://cdn-icons.flaticon.com/png/512/3670/premium/3670127.png?token=exp=1643801796~hmac=24d252e7e788ac1a817a95a5aabde909"
-          alt=""
-          class="icon"
-        />
-        <img
-          src="https://cdn-icons-png.flaticon.com/512/906/906377.png"
-          alt=""
-          class="icon"
-        />
-        <img
-          src="https://cdn-icons-png.flaticon.com/512/174/174855.png"
-          alt=""
-          class="icon"
-        /><img
-          src="https://cdn-icons-png.flaticon.com/512/187/187209.png"
-          alt=""
-          class="icon"
-        />
-        <img
-          src="https://cdn-icons-png.flaticon.com/512/3779/3779321.png"
-          alt=""
-          class="iso"
-        />
-      </div>
-    </div>
-    <hr />
-    <div class="menu">
-      <div class="companyLogo">
-        <img src="images/logo.png" alt="" />
-      </div>
-      <a href="lost.html"><div class="menuItem">Home</div></a>
-      <a href="lost.html"><div class="menuItem">Courses</div></a>
-      <a href="lost.html"><div class="menuItem">Services</div></a>
-      <a href="lost.html"><div class="menuItem">Profits</div></a>
-      <a href="lost.html"><div class="menuItem">Programs</div></a>
-      <div class="dropdown">
-        <button
-          class="btn dropdown-toggle menuItem"
-          type="button"
-          data-toggle="dropdown"
-        >
-          Free research <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu">
-          <li class="dropdownItem"><a href="#">Option1</a></li>
-          <li class="dropdownItem"><a href="#">Option2</a></li>
-          <li class="dropdownItem"><a href="#">Option3</a></li>
-        </ul>
-      </div>
-      <div class="dropdown">
-        <button
-          class="btn dropdown-toggle menuItem"
-          type="button"
-          data-toggle="dropdown"
-        >
-          Blog <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu">
-          <li class="dropdownItem"><a href="#">Option1</a></li>
-          <li class="dropdownItem"><a href="#">Option2</a></li>
-          <li class="dropdownItem"><a href="#">Option3</a></li>
-        </ul>
-      </div>
-      <div class="menuItem">About us</div>
-      <div class="menuItem">Contact us</div>
-      <div class="loginButton">
-        <button>Login</button>
-      </div>
-    </div>
-    <div class="bodyPart">
-      <img
-        src="https://cdn.pixabay.com/photo/2015/09/05/22/46/business-925900_960_720.jpg"
-        alt=""
-      />
-      <img
-        src="https://cdn-icons.flaticon.com/png/512/2504/premium/2504957.png?token=exp=1643806843~hmac=42d210da9e31f4a68f21a062d2b6bd38"
-        alt=""
-        class="whatsappLogo"
-      />
-    </div>
-  </body>
+        <div class="form-footer">
+            <button class="primary" type="submit">Continue</button>
+        </div>
+    </form>
+</div></body>
 </html>
