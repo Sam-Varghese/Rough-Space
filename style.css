@@ -2,6 +2,9 @@ h1 {
     text-align: center;
     font-size: 5vw;
 }
+h3 {
+    font-size: 2vw;
+}
 p {
     font-size: 3vw;
 }
@@ -35,10 +38,19 @@ iframe {
 }
 html {
     font-family: "Updock", cursive;
-    background: #5433FF;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #5433ff; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #a5fecb,
+        #20bdff,
+        #5433ff
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #a5fecb,
+        #20bdff,
+        #5433ff
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .wishes {
     display: flex;
@@ -73,5 +85,12 @@ background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+
         margin: 1vw;
         width: 100%;
         /* height: 50vh; */
+    }
+    .img1 {
+        width: 80%;
+        /* height: 70vh; */
+    }
+    h3 {
+        font-size: 5vw;
     }
 }
