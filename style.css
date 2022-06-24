@@ -84,6 +84,9 @@ html {
     .wishes p {
         width: 80%;
     }
+    .wishes p:hover{
+      font-size: 15vw;;
+    }
     iframe {
         margin: 1vw;
         width: 100%;
