@@ -12,6 +12,7 @@ p:hover {
 }
 .img1 {
     width: 30%;
+    box-shadow: 1vw 1vw 1vw black;
     /* height: 50vh; */
     /* object-fit: contain; */
 }
@@ -34,19 +35,10 @@ iframe {
 }
 html {
     font-family: "Updock", cursive;
-    background: #77a1d3; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-        to right,
-        #e684ae,
-        #79cbca,
-        #77a1d3
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-        to right,
-        #e684ae,
-        #79cbca,
-        #77a1d3
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #5433FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .wishes {
     display: flex;
