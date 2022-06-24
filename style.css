@@ -94,6 +94,7 @@ html {
     }
     .img1 {
         width: 80%;
+        box-shadow: 3vw 3vw 3vw black;
         /* height: 70vh; */
     }
     h3 {
