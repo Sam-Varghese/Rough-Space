@@ -73,7 +73,7 @@ html {
         font-size: 10vw;
     }
     p:hover{
-      font-size: 13vw;
+      font-size: 11vw;
     }
     h1 {
         font-size: 15vw;
@@ -85,7 +85,7 @@ html {
         width: 80%;
     }
     .wishes p:hover{
-      font-size: 15vw;;
+      font-size: 11vw;
     }
     iframe {
         margin: 1vw;
