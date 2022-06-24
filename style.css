@@ -72,6 +72,9 @@ html {
     p {
         font-size: 10vw;
     }
+    p:hover{
+      font-size: 13vw;
+    }
     h1 {
         font-size: 15vw;
     }
